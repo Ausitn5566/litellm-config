@@ -1,0 +1,12 @@
+model_list:
+  - model_name: gemini-3-pro
+    litellm_params:
+      model: vertex_ai/gemini-3-pro
+  - model_name: minimax
+    litellm_params:
+      model: minimax/MiniMax-M2.5
+
+general_settings:
+  master_key: "${LITELLM_MASTER_KEY}"
+  database_url: "sqlite:///litellm.db"
+  log_level: "INFO"
