@@ -8,7 +8,7 @@ model_list:
 
   - model_name: minimax
     litellm_params:
-      model: minimax/MiniMax-M.2
+      model: minimax/MiniMax-M2.5
       api_key: "os.environ/MINIMAX_API_KEY"
 
 general_settings:
